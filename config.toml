@@ -1,0 +1,29 @@
+baseURL = 'https://blog.douchi.space'
+languageCode = 'zh-CN'
+title = '椒盐豆豉'
+theme = 'hugo-book'
+hasCJKLanguage = true
+
+googleAnalytics = "G-0R5FWRP8MH"
+disqusShortname = "mtfront"
+
+[markup]
+    [markup.highlight]
+        style = 'paraiso-light'     # style demos https://pygments.org/demo/
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true    # 允许渲染原始 HTML
+
+[params]
+    BookRepo = 'https://github.com/mtfront/mtfront'
+    BookLogo = 'dino.gif'
+    BookMenuBundle = '/menu'
+    cdnURL = "https://static.cmdfas.top"
+    cdnURLCN = "https://static.3css.com"
+    
+    [params.cdnPrefixes]
+        default = "https://cdn-global.example.com"
+        cn = "https://cdn-cn.example.com"
+        eu = "https://cdn-eu.example.com"
+
+
