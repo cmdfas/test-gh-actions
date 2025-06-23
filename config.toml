@@ -1,11 +1,11 @@
-baseURL = 'https://blog.douchi.space'
+baseURL = 'https://blogpre.3css.com/'
 languageCode = 'zh-CN'
-title = '椒盐豆豉'
+title = 'x2'
 theme = 'hugo-book'
 hasCJKLanguage = true
 
-googleAnalytics = "G-0R5FWRP8MH"
-disqusShortname = "mtfront"
+googleAnalytics = "G-0R5FWRP8MH-x2"
+disqusShortname = "mtfront-x2"
 
 [markup]
     [markup.highlight]
@@ -15,15 +15,13 @@ disqusShortname = "mtfront"
             unsafe = true    # 允许渲染原始 HTML
 
 [params]
-    BookRepo = 'https://github.com/mtfront/mtfront'
+    BookRepo = 'https://github.com/cmdfas/test-gh-actions'
     BookLogo = 'dino.gif'
     BookMenuBundle = '/menu'
-    cdnURL = "https://static.cmdfas.top"
-    cdnURLCN = "https://static.3css.com"
     
     [params.cdnPrefixes]
-        default = "https://cdn-global.example.com"
-        cn = "https://cdn-cn.example.com"
-        eu = "https://cdn-eu.example.com"
+        default = "https://static.cmdfas.top"
+        cn = "https://static.3css.com"
+        en = "https://static.cmdfas.top"
 
 
